@@ -38,5 +38,5 @@ jobs:
         uses: actions/upload-release-asset@v1
         with:
           files: build/app/outputs/flutter-apk/app-release.apk
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
