@@ -27,5 +27,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: app
-          path: build/app/outputs/apk/flutter-apk/app-debug.apk
+          path: 'build/app/outputs/apk/flutter-apk/'
 
