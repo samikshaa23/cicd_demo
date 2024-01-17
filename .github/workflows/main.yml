@@ -15,7 +15,7 @@ jobs:
           java-version: "20.0.2"
       - uses: subosito/flutter-action@v1
         with:
-        channel: "stable"
+        flutter-version: "3.7.8"
 
       - run: flutter pub get
       - run: flutter analyze
