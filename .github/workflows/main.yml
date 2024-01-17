@@ -13,6 +13,7 @@ jobs:
 
       - uses: actions/setup-java@v4
         with:
+          distribution: 'adopt'
           java-version: "16.x"
       - uses: subosito/flutter-action@v2
         with:
