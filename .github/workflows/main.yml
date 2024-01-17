@@ -5,6 +5,7 @@ on:
       - main
 
 jobs:
+  build:
     runs-on: window-latest
     steps:
         - uses: actions/checkout@v2
